@@ -1,7 +1,9 @@
 /* ===========================
    MICKU ❤️ PREMIUM WEBSITE
 =========================== */
-
+body{
+    background:red !important;
+}
 :root{
     --bg:#080808;
     --bg2:#121212;
