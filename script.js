@@ -912,3 +912,8 @@ console.log(
 "%cMade with endless love for Micku 💖",
 "font-size:16px;color:#ffd166;"
 );
+window.addEventListener("load", () => {
+    document.querySelectorAll(".fade-up").forEach(el => {
+        el.classList.add("show");
+    });
+});
